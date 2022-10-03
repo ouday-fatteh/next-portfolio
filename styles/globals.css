@@ -23,3 +23,13 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+#logo {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.25rem /* 28px */;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    font-size: 12px;
+  }
+}

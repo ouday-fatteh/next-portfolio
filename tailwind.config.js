@@ -10,6 +10,13 @@ module.exports = {
       fontFamily: {
         burtons: "burtons",
       },
+      transitionProperty: {
+        height: "height",
+        basis: "flex-basis",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [],
