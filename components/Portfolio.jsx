@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import web1 from '../../public/web1.png';
-import web2 from '../../public/web2.png';
-import web3 from '../../public/web3.png';
-import web4 from '../../public/web4.png';
-import web5 from '../../public/web5.png';
-import web6 from '../../public/web6.png';
-import * as lang from "../../language.js";
+import web1 from '../public/web1.png';
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.png';
+import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
+import * as lang from "../language.js";
 
 const images = [{ src: web1, href: "" }, { src: web2, href: "" },
 { src: web3, href: "" }, { src: web4, href: "" }, { src: web5, href: "" }, { src: web6, href: "" },

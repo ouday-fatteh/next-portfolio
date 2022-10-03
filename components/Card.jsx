@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import * as lang from "../../language.js";
+import * as lang from "../language.js";
 const Card = ({ image, language, num }) => {
     return (
         <div className="text-center hover:shadow-teal-800  shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 transition ease-in-out delay-150 ">

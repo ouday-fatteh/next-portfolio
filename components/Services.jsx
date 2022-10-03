@@ -1,5 +1,5 @@
 import React from 'react';
-import * as lang from "../../language.js";
+import * as lang from "../language.js";
 const Services = ({ language }) => {
     return (
         <div>

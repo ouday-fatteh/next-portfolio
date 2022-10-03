@@ -1,5 +1,5 @@
 import React from 'react';
-import { footerParag } from '../../language';
+import { footerParag } from '../language';
 
 const Footer = ({ language }) => {
     return (

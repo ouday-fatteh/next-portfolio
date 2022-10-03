@@ -1,5 +1,5 @@
 import React from 'react';
-import { hireMeParag } from "../../language.js";
+import { hireMeParag } from "../language.js";
 
 const Contact = ({ language }) => {
     return (

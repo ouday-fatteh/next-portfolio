@@ -11,7 +11,7 @@ import {
   Portfolio,
   Contact,
   Footer,
-} from "./components";
+} from "../components";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
