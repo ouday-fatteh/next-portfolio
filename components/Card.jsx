@@ -3,7 +3,7 @@ import Image from 'next/image';
 import * as lang from "../language.js";
 const Card = ({ image, language, num }) => {
     return (
-        <div className="text-center hover:shadow-teal-800  shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 transition ease-in-out delay-150 ">
+        <div className="text-center hover:shadow-teal-800 flex-1 shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 transition ease-in-out delay-150 ">
             <Image src={image} alt="" width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white transition ease-in-out delay-150">{language === 'en' ? lang.cardsTitles[num].english : lang.cardsTitles[num].french}</h3>
             <p className="dark:text-white transition ease-in-out delay-150">{language === 'en' ? lang.cardsSub[num].english : lang.cardsSub[num].french}</p>
